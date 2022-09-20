@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" data-theme="autumn">
+<html lang="en" data-theme="emerald">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -145,7 +145,7 @@
 
       </div><br>
       <!-- friend suggestion -->
-      <div class="card h-32 bg-base-100 shadow-xl rounded-md">
+      <div class="card  bg-base-100 shadow-xl rounded-md">
         <div class="card-body ">
           <p class="card-title font-bold text-base mb-2">Suggested People</p>
           <div class="card-actions">
@@ -161,7 +161,7 @@
       </div>
     </div>
     <!-- user activity section -->
-    <div class="flex-auto w-2/4 h-24">
+    <div class="flex-auto w-1/2">
       <!-- story update section -->
       <div class="flex gap-2">
         <div class="card w-24 h-32 bg-gray-500 shadow-xl rounded-lg py-4 relative">
@@ -189,7 +189,7 @@
       </div><br>
       <!-- user post section -->
       <div class="card bg-base-100 shadow-xl rounded-md">
-        <div class="card-body">
+        <div class="card-body p-5">
          <div class="flex gap-2">
           <div class="avatar">
             <div class="w-8 rounded-full">
@@ -206,15 +206,190 @@
           <a href=""><i class="fa-regular fa-image"></i> Photo/Video</a>
           <a href=""><i class="fa-regular fa-face-smile"></i> Felling/Activity</a>
          </div>
-         
-          <div class="card-actions justify-end">
-           
+          </div>
+        </div><br>
+        <!-- post type -->
+        <div class="card  bg-base-100 shadow-xl rounded-md ">
+          <div class="card-body p-2">
+          
+            <p class="font-semibold "> <span class="text-red-500 pr-2">Public post</span> <span> Friend Post</span></p>
+            
+          </div>
+        </div><br>
+         <!-- user activity timeline -->
+      <div class="card  bg-base-100 shadow-xl rounded-md ">
+        <div class="card-body p-5">
+          <div class="flex justify-between">
+            <div class="avatar items-start">
+              <div class="w-8 rounded-full">
+                <img src="https://placeimg.com/192/192/people" />
+              </div>
+              <div class=" ml-2 " style="width:126px; height:42px;">
+                <p class="font-bold">Atiqur Rahman</p>
+                <p class="text-slate-400 text-sm">1 hours ago <i class="fa-solid fa-globe text-xs"></i></p> 
+               </div>
+              </div>
+             
+             
+              <div class="dropdown dropdown-end">
+                <label tabindex="0" class=" m-1"><i class="fa-solid fa-angle-down"></i></label>
+                <ul tabindex="0" class="dropdown-content menu p-2 shadow bg-base-100 rounded-box rounded-md w-52">
+                  <li><a><i class="fa-solid fa-bookmark"></i>Save Post</a></li>
+                  <li><a><i class="fa-solid fa-flag"></i>Report Post</a></li>
+                  <li><a><i class="fa-solid fa-pen"></i>Edit Post</a></li>
+                  <li><a><i class="fa-solid fa-trash"></i>Delete Post</a></li><hr>
+                  <li><a><i class="fa-solid fa-link"></i>Open post in new tab</a></li>
+                </ul>
+              </div>
+             
+            </div>
+            <div>
+              <p>Your favourite game</p>
+            </div>
+            <div class="form-control items-start ">
+              <label class=" cursor-pointer label justify-between ">
+                
+               <div class="flex items-center justify-between gap-x-20">
+                <input type="checkbox" checked="checked" class="checkbox checkbox-secondary checkbox-sm " />
+                <span class="label-text bg-slate-200 rounded-sm text-left w-72 px-2 py-1 text-xs" style="margin-left:-66px ;">Added by you<p class="text-sm font-semibold">Football</p></span> 
+                <span class="text-sm"><i class="fa-solid fa-user bg-slate-200 text-gray-400 p-2 rounded-full"></i><p class="text-xs">1vote</p></span>
+                <i class="fa-solid fa-xmark bg-slate-200 text-gray-400 w-4 text-center text-xs rounded-full "></i> 
+               </div>
+              </label>
+            </div>
+
+            <div class="form-control items-start ">
+              <label class=" cursor-pointer label justify-between ">
+                
+               <div class="flex items-center justify-between gap-x-20">
+                <input type="checkbox" checked="checked" class="checkbox checkbox-secondary checkbox-sm " />
+                <span class="label-text bg-slate-200 rounded-sm text-left w-72 px-2 py-1 text-xs" style="margin-left:-66px ;">Added by you<p class="text-sm font-semibold">Cricket</p></span> 
+               
+                <i class="fa-solid fa-xmark bg-slate-200 text-gray-400 w-4 text-center text-xs rounded-full ml-28"></i> 
+               </div>
+              </label>
+            </div>
+
+            <div class="form-control items-start ">
+              <label class=" cursor-pointer label justify-between ">
+                
+               <div class="flex items-center justify-between gap-x-20">
+                <input type="checkbox" checked="checked" class="checkbox checkbox-secondary checkbox-sm " />
+                <span class="label-text bg-slate-200 rounded-sm text-left w-72 px-2 py-1 text-xs" style="margin-left:-66px ;">Added by you<p class="text-sm font-semibold">Batminton</p></span> 
+                
+                <i class="fa-solid fa-xmark bg-slate-200 text-gray-400 w-4 text-center text-xs rounded-full ml-28"></i> 
+               </div>
+              </label>
+            </div>
+            <div class="flex mt-6" style="column-gap:28.5rem ;">
+              <p><i></i></p>
+              <p>1 comment</p>
+            </div>
+            <!-- like comment share  -->
+            <div class=" rounded-xs bg-slate-200 px-4 py-3">
+              <div class="flex ml-16 text-sm">
+               <p><i class="fa-regular fa-thumbs-up"></i> Like</p>
+               <p><i class="fa-regular fa-message"></i> Comment</p>
+               <p><i class="fa-solid fa-share"></i></i> Share</p>
+              </div>
+            </div>
+          <!-- write comment -->
+          <div class="flex gap-x-5 mt-3">
+            <div class="avatar ">
+              <div class="w-8 rounded-full">
+                <img src="https://placeimg.com/192/192/people" />
+              </div>
+                
+              </div>
+              <div>
+                <i class="fa-solid fa-face-smile"></i>
+                <i class="fa-solid fa-paperclip"></i>
+                <i class="fa-solid fa-square-full"></i>
+               <span class="relative"><input type="text" placeholder="write a comment" class="input input-bordered  ml-1  rounded-full h-9 bg-slate-200" style="width:26rem ;"><i class="fa-brands fa-telegram absolute top-1 right-3"></i></span> 
+                
+              </div>
+          </div>
+        </div>
+      </div><br>
+      <div class="card  bg-base-100 shadow-xl rounded-md ">
+        <div class="card-body p-5">
+          <div class="flex justify-between">
+            <div class="avatar items-start">
+              <div class="w-8 rounded-full">
+                <img src="https://placeimg.com/192/192/people" />
+              </div>
+              <div class=" ml-2 " style="width:250px; height:42px;">
+                <p class="font-bold">Atiqur Rahman <i class="fa-solid fa-face-smile text-yellow-500"></i> <span class="font-normal">is felling ok</span></p>
+                <p class="text-slate-400 text-sm">1 hours ago <i class="fa-solid fa-globe text-xs"></i></p> 
+               </div>
+              </div>
+             
+             
+              <div class="dropdown dropdown-end">
+                <label tabindex="0" class=" m-1"><i class="fa-solid fa-angle-down"></i></label>
+                <ul tabindex="0" class="dropdown-content menu p-2 shadow bg-base-100 rounded-box rounded-md w-52">
+                  <li><a><i class="fa-solid fa-bookmark"></i>Save Post</a></li>
+                  <li><a><i class="fa-solid fa-flag"></i>Report Post</a></li>
+                  <li><a><i class="fa-solid fa-pen"></i>Edit Post</a></li>
+                  <li><a><i class="fa-solid fa-trash"></i>Delete Post</a></li><hr>
+                  <li><a><i class="fa-solid fa-link"></i>Open post in new tab</a></li>
+                </ul>
+              </div>
+             
+            </div>
+            <div>
+              <p>Have a good day!</p>
+            </div>
+            <div class="grid grid-rows-2  gap-3 ">
+              <div class="grid grid-cols-2 gap-3 ">
+                <img src="images/pic-4.jpg" alt="">
+                <img src="images/pic-5.jpg" alt="">
+              </div>
+              
+              <div class="grid grid-cols-3 gap-x-3 ">
+                <img src="images/pic-3.jpg" alt="">
+                <img src="images/pic-9.jpg" alt="">
+                <span class="relative"><img class="object-cover brightness-50" src="images/pic-8.jpg" alt=""><p class="absolute top-8 left-16 font-bold text-2xl text-white">+1</p></span>
+              </div>
+            </div>
+
+            
+
+            <div class="flex " style="column-gap:28.5rem ;">
+              <p><i></i></p>
+              <p>1 comment</p>
+            </div>
+            <!-- like comment share  -->
+            <div class=" rounded-xs bg-slate-200 px-4 py-3">
+              <div class="flex ml-16 text-sm">
+               <p><i class="fa-regular fa-thumbs-up"></i> Like</p>
+               <p><i class="fa-regular fa-message"></i> Comment</p>
+               <p><i class="fa-solid fa-share"></i></i> Share</p>
+              </div>
+            </div>
+          <!-- write comment -->
+          <div class="flex gap-x-5 mt-3">
+            <div class="avatar ">
+              <div class="w-8 rounded-full">
+                <img src="https://placeimg.com/192/192/people" />
+              </div>
+                
+              </div>
+              <div>
+                <i class="fa-solid fa-face-smile"></i>
+                <i class="fa-solid fa-paperclip"></i>
+                <i class="fa-solid fa-square-full"></i>
+               <span class="relative"><input type="text" placeholder="write a comment" class="input input-bordered  ml-1  rounded-full h-9 bg-slate-200" style="width:26rem ;"><i class="fa-brands fa-telegram absolute top-1 right-3"></i></span> 
+                
+              </div>
           </div>
         </div>
       </div>
-    </div>
+      </div>
+     
+    
     <!-- right side menu -->
-    <div class="flex-auto w-1/4 h-24 bg-slate-500">
+    <div class="flex-auto w-1/4 ">
       <div class="card h-40 bg-base-100 shadow-xl rounded-md">
         <div class="card-body ">
           <p class="card-title font-bold text-base mb-2">You Might Like</p>
@@ -227,13 +402,13 @@
               <p class="mx-1">NEUB</p>
             <div class="flex gap-2">
               <button class="btn btn-outline btn-sm px-6">ignore</button>
-            <button class="btn btn-active btn-secondary btn-sm px-6">Follow</button>
+            <button class="btn btn-active btn-accent btn-sm px-6">Follow</button>
             </div>
           </div>
         </div>
       </div><br>
       <!-- Friends section -->
-      <div class="card h-52 bg-base-100 shadow-xl rounded-md">
+      <div class="card  bg-base-100 shadow-xl rounded-md">
         <div class="card-body ">
           <p class="card-title font-bold text-base mb-0">Your Friends</p>
           <div class="card-actions flex-col">
