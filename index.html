@@ -107,8 +107,26 @@
             </li>
             <li class="relative">
               <i class="fa-solid fa-magnifying-glass absolute left-2 right-2 text-sm text-gray-300"></i><input type="text" placeholder="search" class="input input-bordered  w-full max-w-xs pl-10 rounded-full h-9" />
+            </li><br>
+            <li id="home-btn">
+              <a><i class="fa-regular fa-paste"></i>Saved post</a>
             </li>
-          </ul>
+            <li id="home-btn">
+              <a><i class="fa-solid fa-user"></i>People</a>
+            </li>
+            <li>
+              <a><i class="fa-solid fa-user-group"></i>Groups</a>
+            </li>
+            <li>
+              <a><i class="fa-solid fa-pager"></i>Pages</a>
+            </li>
+            <li>
+              <a><i class="fa-regular fa-calendar"></i>Events</a>
+            </li>
+            <li>
+          </ul><br>
+        
+          
         </div>
       </div>
     </div> 
@@ -163,7 +181,7 @@
     <!-- user activity section -->
     <div class="flex-auto w-1/2">
       <!-- story update section -->
-      <div class="flex gap-2">
+      <div class="flex gap-2 mx-2">
         <div class="card w-24 h-32 bg-gray-500 shadow-xl rounded-lg py-4 relative">
           <figure><img src="images/story.png" alt="" /></figure>
           <div class="absolute bg-gray-900 w-24 rounded-t-2xl top-20 h-16">
@@ -196,12 +214,12 @@
               <img src="https://placeimg.com/192/192/people" />
             </div>
             </div>
-            <div>
-              <input type="text" placeholder="create a new post" class="input input-bordered  pl-4 rounded-full h-9 bg-gray-200" style="width:28rem ;" />
-            </div>
+            
+              <input type="text" placeholder="create a new post" class="input input-bordered grow  pl-4 rounded-full h-9 bg-gray-200 w-full"  />
+            
          </div>
          <div class="divider"></div> 
-         <div class="flex justify-between">
+         <div class="flex md:flex-row flex-col justify-between">
          <a href=""> <i class="fa-solid fa-circle-half-stroke"></i> Background</a>
           <a href=""><i class="fa-regular fa-image"></i> Photo/Video</a>
           <a href=""><i class="fa-regular fa-face-smile"></i> Felling/Activity</a>
@@ -281,33 +299,33 @@
                </div>
               </label>
             </div>
-            <div class="flex mt-6" style="column-gap:28.5rem ;">
+            <div class="flex mt-6 gap-12 md:gap-32" >
               <p><i></i></p>
               <p>1 comment</p>
             </div>
             <!-- like comment share  -->
             <div class=" rounded-xs bg-slate-200 px-4 py-3">
-              <div class="flex ml-16 text-sm">
+              <div class="flex  text-sm">
                <p><i class="fa-regular fa-thumbs-up"></i> Like</p>
                <p><i class="fa-regular fa-message"></i> Comment</p>
                <p><i class="fa-solid fa-share"></i></i> Share</p>
               </div>
             </div>
           <!-- write comment -->
-          <div class="flex gap-x-5 mt-3">
+          <div class="flex gap-x-2 mt-3 items-center relative">
             <div class="avatar ">
               <div class="w-8 rounded-full">
                 <img src="https://placeimg.com/192/192/people" />
               </div>
                 
               </div>
-              <div>
+             
                 <i class="fa-solid fa-face-smile"></i>
                 <i class="fa-solid fa-paperclip"></i>
                 <i class="fa-solid fa-square-full"></i>
-               <span class="relative"><input type="text" placeholder="write a comment" class="input input-bordered  ml-1  rounded-full h-9 bg-slate-200" style="width:26rem ;"><i class="fa-brands fa-telegram absolute top-1 right-3"></i></span> 
+               <input type="text" placeholder="write a comment" class="input input-bordered  ml-1  rounded-full h-9 bg-slate-200 grow w-full" ><i class="fa-brands fa-telegram absolute top-2 right-3"></i> 
                 
-              </div>
+              
           </div>
         </div>
       </div><br>
@@ -355,33 +373,33 @@
 
             
 
-            <div class="flex mt-6" style="column-gap:25rem ;">
+            <div class="flex mt-6 gap-12 md:gap-32">
               <p class=""><i class="fa-brands fa-gratipay text-red-700"></i> you</p>
               <p></p>
             </div>
             <!-- like comment share  -->
             <div class=" rounded-xs bg-slate-200 px-4 py-3">
-              <div class="flex ml-16 text-sm">
+              <div class="flex ml-6 md:ml-16 text-sm">
                <p class="text-red-700"><i class="fa-brands fa-gratipay"></i> Love</p>
                <p><i class="fa-regular fa-message"></i> Comment</p>
                <p><i class="fa-solid fa-share"></i></i> Share</p>
               </div>
             </div>
           <!-- write comment -->
-          <div class="flex gap-x-5 mt-3">
+          <div class="flex gap-x-2 mt-3 items-center relative">
             <div class="avatar ">
               <div class="w-8 rounded-full">
                 <img src="https://placeimg.com/192/192/people" />
               </div>
                 
               </div>
-              <div>
+            
                 <i class="fa-solid fa-face-smile"></i>
                 <i class="fa-solid fa-paperclip"></i>
                 <i class="fa-solid fa-square-full"></i>
-               <span class="relative"><input type="text" placeholder="write a comment" class="input input-bordered  ml-1  rounded-full h-9 bg-slate-200" style="width:26rem ;"><i class="fa-brands fa-telegram absolute top-1 right-3"></i></span> 
+              <input type="text" placeholder="write a comment" class="input input-bordered  ml-1  rounded-full h-9 bg-slate-200 w-full" ><i class="fa-brands fa-telegram absolute top-2 right-3"></i>
                 
-              </div>
+             
           </div>
         </div>
       </div><br>
@@ -417,33 +435,33 @@
             </div>
             
 
-            <div class="flex mt-6" style="column-gap:25rem ;">
+            <div class="flex mt-6 gap-12 md:gap-32" >
               <p class=""><i class="fa-solid fa-thumbs-up text-blue-500"></i> 3</p>
               <p></p>
             </div>
             <!-- like comment share  -->
             <div class=" rounded-xs bg-slate-200 px-4 py-3">
-              <div class="flex ml-16 text-sm">
+              <div class="flex ml-6 md:ml-16 text-sm">
                <p class=""><i class="fa-regular fa-thumbs-up"></i> Like</p>
                <p><i class="fa-regular fa-message"></i> Comment</p>
                <p><i class="fa-solid fa-share"></i></i> Share</p>
               </div>
             </div>
           <!-- write comment -->
-          <div class="flex gap-x-5 mt-3">
+          <div class="flex gap-x-2 mt-3 items-center relative">
             <div class="avatar ">
               <div class="w-8 rounded-full">
                 <img src="https://placeimg.com/192/192/people" />
               </div>
                 
               </div>
-              <div>
+              
                 <i class="fa-solid fa-face-smile"></i>
                 <i class="fa-solid fa-paperclip"></i>
                 <i class="fa-solid fa-square-full"></i>
-               <span class="relative"><input type="text" placeholder="write a comment" class="input input-bordered  ml-1  rounded-full h-9 bg-slate-200" style="width:26rem ;"><i class="fa-brands fa-telegram absolute top-1 right-3"></i></span> 
+              <input type="text" placeholder="write a comment" class="input input-bordered  ml-1  rounded-full h-9 bg-slate-200 w-full" ><i class="fa-brands fa-telegram absolute top-2 right-3"></i>
                 
-              </div>
+            
           </div>
         </div>
       </div><br>
@@ -479,33 +497,34 @@
             </div>
             
 
-            <div class="flex mt-6" style="column-gap:25rem ;">
+            <div class="flex mt-6 gap-12 md:gap-32" >
               <p class=""><i class="fa-solid fa-thumbs-up text-blue-500"></i><i class="fa-brands fa-gratipay text-red-700"></i> 6</p>
+              <p></p>
               <p>1 comment</p>
             </div>
             <!-- like comment share  -->
             <div class=" rounded-xs bg-slate-200 px-4 py-3">
-              <div class="flex ml-16 text-sm">
+              <div class="flex ml-6 md:ml-16 text-sm">
                <p class=""><i class="fa-regular fa-thumbs-up"></i> Like</p>
                <p><i class="fa-regular fa-message"></i> Comment</p>
                <p><i class="fa-solid fa-share"></i></i> Share</p>
               </div>
             </div>
           <!-- write comment -->
-          <div class="flex gap-x-5 mt-3">
+          <div class="flex gap-x-2 mt-3 items-center relative">
             <div class="avatar ">
               <div class="w-8 rounded-full">
                 <img src="https://placeimg.com/192/192/people" />
               </div>
                 
               </div>
-              <div>
+             
                 <i class="fa-solid fa-face-smile"></i>
                 <i class="fa-solid fa-paperclip"></i>
                 <i class="fa-solid fa-square-full"></i>
-               <span class="relative"><input type="text" placeholder="write a comment" class="input input-bordered  ml-1  rounded-full h-9 bg-slate-200" style="width:26rem ;"><i class="fa-brands fa-telegram absolute top-1 right-3"></i></span> 
+               <input type="text" placeholder="write a comment" class="input input-bordered  ml-1  rounded-full h-9 bg-slate-200 w-full" ><i class="fa-brands fa-telegram absolute top-2 right-3"></i>
                 
-              </div>
+              
           </div>
         </div>
       </div><br>
@@ -551,33 +570,34 @@
               <img src="images/pic-4.jpg" alt="">
             </div>
 
-            <div class="flex mt-6" style="column-gap:17rem ;">
+            <div class="flex mt-6 gap-12 md:gap-32" >
               <p class=""><i class="fa-solid fa-thumbs-up text-blue-500"></i><i class="fa-brands fa-gratipay text-red-700"></i><i class="fa-solid fa-face-angry text-amber-500"></i> <span class="underline"> you and 2 others</span></p>
+             
               <p>1 comment</p>
             </div>
             <!-- like comment share  -->
             <div class=" rounded-xs bg-slate-200 px-4 py-3">
-              <div class="flex ml-16 text-sm">
+              <div class="flex ml-6 md:ml-16 text-sm">
                <p class="text-amber-500"><i class="fa-solid fa-face-angry "></i> Angry</p>
                <p><i class="fa-regular fa-message"></i> Comment</p>
                <p><i class="fa-solid fa-share"></i></i> Share</p>
               </div>
             </div>
           <!-- write comment -->
-          <div class="flex gap-x-5 mt-3">
+          <div class="flex gap-x-2 mt-3 items-center relative">
             <div class="avatar ">
               <div class="w-8 rounded-full">
                 <img src="https://placeimg.com/192/192/people" />
               </div>
                 
               </div>
-              <div>
+            
                 <i class="fa-solid fa-face-smile"></i>
                 <i class="fa-solid fa-paperclip"></i>
                 <i class="fa-solid fa-square-full"></i>
-               <span class="relative"><input type="text" placeholder="write a comment" class="input input-bordered  ml-1  rounded-full h-9 bg-slate-200" style="width:26rem ;"><i class="fa-brands fa-telegram absolute top-1 right-3"></i></span> 
+              <input type="text" placeholder="write a comment" class="input input-bordered  ml-1  rounded-full h-9 bg-slate-200 w-full" ><i class="fa-brands fa-telegram absolute top-2 right-3"></i>
                 
-              </div>
+             
           </div>
         </div>
       </div><br>
@@ -613,13 +633,14 @@
             </div>
            
 
-            <div class="flex mt-6" style="column-gap:17rem ;">
+            <div class="flex mt-6 gap-12 md:gap-32" >
               <p class=""><i class="fa-solid fa-thumbs-up text-blue-500"></i><i class="fa-brands fa-gratipay text-red-700"></i> <span class="underline"> you and 1 others</span></p>
+              <p></p>
               <p>1 comment</p>
             </div>
             <!-- like comment share  -->
             <div class=" rounded-xs bg-slate-200 px-4 py-3">
-              <div class="flex ml-16 text-sm">
+              <div class="flex ml-6 md:ml-16 text-sm">
                <p class=" text-red-700"><i class="fa-brands fa-gratipay"></i> Love</p>
                <p><i class="fa-regular fa-message"></i> Comment</p>
                <p><i class="fa-solid fa-share"></i></i> Share</p>
@@ -629,20 +650,20 @@
               <p class="text-slate-400">View more comments</p>
             </div>
           <!-- write comment -->
-          <div class="flex gap-x-5 mt-3">
+          <div class="flex gap-x-2 mt-3 items-center relative">
             <div class="avatar ">
               <div class="w-8 rounded-full">
                 <img src="https://placeimg.com/192/192/people" />
               </div>
                 
               </div>
-              <div>
+            
                 <i class="fa-solid fa-face-smile"></i>
                 <i class="fa-solid fa-paperclip"></i>
                 <i class="fa-solid fa-square-full"></i>
-               <span class="relative"><input type="text" placeholder="write a comment" class="input input-bordered  ml-1  rounded-full h-9 bg-slate-200" style="width:26rem ;"><i class="fa-brands fa-telegram absolute top-1 right-3"></i></span> 
+               <input type="text" placeholder="write a comment" class="input input-bordered  ml-1  rounded-full h-9 bg-slate-200 w-full" ><i class="fa-brands fa-telegram absolute top-2 right-3"></i>
                 
-              </div>
+              
           </div>
         </div>
       </div><br>
@@ -686,33 +707,34 @@
             </div>
             
 
-            <div class="flex mt-6" style="column-gap:23rem ;">
+            <div class="flex mt-6 gap-12 md:gap-32" >
               <p class=""><i class="fa-solid fa-thumbs-up text-blue-500"></i><i class="fa-solid fa-face-surprise text-yellow-400"></i><i class="fa-brands fa-gratipay text-red-700"></i> 9</p>
+              <p></p>
               <p>1 comment</p>
             </div>
             <!-- like comment share  -->
             <div class=" rounded-xs bg-slate-200 px-4 py-3">
-              <div class="flex ml-16 text-sm">
+              <div class="flex ml-6 md:ml-16 text-sm">
                <p class=""><i class="fa-regular fa-thumbs-up"></i> Like</p>
                <p><i class="fa-regular fa-message"></i> Comment</p>
                <p><i class="fa-solid fa-share"></i></i> Share</p>
               </div>
             </div>
           <!-- write comment -->
-          <div class="flex gap-x-5 mt-3">
+          <div class="flex gap-x-2 mt-3 items-center relative">
             <div class="avatar ">
               <div class="w-8 rounded-full">
                 <img src="https://placeimg.com/192/192/people" />
               </div>
                 
               </div>
-              <div>
+          
                 <i class="fa-solid fa-face-smile"></i>
                 <i class="fa-solid fa-paperclip"></i>
                 <i class="fa-solid fa-square-full"></i>
-               <span class="relative"><input type="text" placeholder="write a comment" class="input input-bordered  ml-1  rounded-full h-9 bg-slate-200" style="width:26rem ;"><i class="fa-brands fa-telegram absolute top-1 right-3"></i></span> 
+            <input type="text" placeholder="write a comment" class="input input-bordered  ml-1  rounded-full h-9 bg-slate-200 w-full" ><i class="fa-brands fa-telegram absolute top-2 right-3"></i>
                 
-              </div>
+           
           </div>
         </div>
       </div><br>
@@ -748,13 +770,14 @@
             </div>
            
 
-            <div class="flex mt-6" style="column-gap:25rem ;">
+            <div class="flex mt-6 gap-12 md:gap-32" >
               <p class=""><i class="fa-solid fa-thumbs-up text-blue-500"></i> <span class=""> 3</span></p>
+              <p></p>
               <p>3 comments</p>
             </div>
             <!-- like comment share  -->
             <div class=" rounded-xs bg-slate-200 px-4 py-3">
-              <div class="flex ml-16 text-sm">
+              <div class="flex ml-6 md:ml-16 text-sm">
                <p class=""><i class="fa-regular fa-thumbs-up"></i> Like</p>
                <p><i class="fa-regular fa-message"></i> Comment</p>
                <p><i class="fa-solid fa-share"></i></i> Share</p>
@@ -764,20 +787,20 @@
               <p class="text-slate-400">View more comments</p>
             </div>
           <!-- write comment -->
-          <div class="flex gap-x-5 mt-3">
+          <div class="flex gap-x-2 mt-3 items-center relative">
             <div class="avatar ">
               <div class="w-8 rounded-full">
                 <img src="https://placeimg.com/192/192/people" />
               </div>
                 
               </div>
-              <div>
+          
                 <i class="fa-solid fa-face-smile"></i>
                 <i class="fa-solid fa-paperclip"></i>
                 <i class="fa-solid fa-square-full"></i>
-               <span class="relative"><input type="text" placeholder="write a comment" class="input input-bordered  ml-1  rounded-full h-9 bg-slate-200" style="width:26rem ;"><i class="fa-brands fa-telegram absolute top-1 right-3"></i></span> 
+             <input type="text" placeholder="write a comment" class="input input-bordered  ml-1  rounded-full h-9 bg-slate-200 w-full" ><i class="fa-brands fa-telegram absolute top-2 right-3"></i>
                 
-              </div>
+              
           </div>
         </div>
       </div><br>
@@ -813,13 +836,13 @@
             </div>
            
 
-            <div class="flex mt-6" style="column-gap:25rem ;">
+            <div class="flex mt-6 gap-12 md:gap-32" >
               <p class=""><i class="fa-solid fa-thumbs-up text-blue-500"></i> <span class=""> 2</span></p>
               
             </div>
             <!-- like comment share  -->
             <div class=" rounded-xs bg-slate-200 px-4 py-3">
-              <div class="flex ml-16 text-sm">
+              <div class="flex ml-6 md:ml-16 text-sm">
                <p class=""><i class="fa-regular fa-thumbs-up "></i> Like</p>
                <p><i class="fa-regular fa-message"></i> Comment</p>
                <p><i class="fa-solid fa-share"></i></i> Share</p>
@@ -827,20 +850,20 @@
             </div>
            
           <!-- write comment -->
-          <div class="flex gap-x-5 mt-3">
+          <div class="flex gap-x-2 mt-3 items-center relative">
             <div class="avatar ">
               <div class="w-8 rounded-full">
                 <img src="https://placeimg.com/192/192/people" />
               </div>
                 
               </div>
-              <div>
+              
                 <i class="fa-solid fa-face-smile"></i>
                 <i class="fa-solid fa-paperclip"></i>
                 <i class="fa-solid fa-square-full"></i>
-               <span class="relative"><input type="text" placeholder="write a comment" class="input input-bordered  ml-1  rounded-full h-9 bg-slate-200" style="width:26rem ;"><i class="fa-brands fa-telegram absolute top-1 right-3"></i></span> 
+             <input type="text" placeholder="write a comment" class="input input-bordered  ml-1  rounded-full h-9 bg-slate-200 w-full" ><i class="fa-brands fa-telegram absolute top-2 right-3"></i>
                 
-              </div>
+             
           </div>
         </div>
       </div><br>
@@ -876,13 +899,13 @@
             </div>
            
 
-            <div class="flex mt-6" style="column-gap:25rem ;">
+            <div class="flex mt-6 gap-12 md:gap-32" >
               <p class=""><i class="fa-solid fa-thumbs-up text-blue-500"></i><i class="fa-brands fa-gratipay text-red-700"></i> <span class=""> 3</span></p>
               
             </div>
             <!-- like comment share  -->
             <div class=" rounded-xs bg-slate-200 px-4 py-3">
-              <div class="flex ml-16 text-sm">
+              <div class="flex ml-6 md:ml-16 text-sm">
                <p class=""><i class="fa-regular fa-thumbs-up "></i> Like</p>
                <p><i class="fa-regular fa-message"></i> Comment</p>
                <p><i class="fa-solid fa-share"></i></i> Share</p>
@@ -890,20 +913,20 @@
             </div>
            
           <!-- write comment -->
-          <div class="flex gap-x-5 mt-3">
+          <div class="flex gap-x-2 mt-3 items-center relative">
             <div class="avatar ">
               <div class="w-8 rounded-full">
                 <img src="https://placeimg.com/192/192/people" />
               </div>
                 
               </div>
-              <div>
+            
                 <i class="fa-solid fa-face-smile"></i>
                 <i class="fa-solid fa-paperclip"></i>
                 <i class="fa-solid fa-square-full"></i>
-               <span class="relative"><input type="text" placeholder="write a comment" class="input input-bordered  ml-1  rounded-full h-9 bg-slate-200" style="width:26rem ;"><i class="fa-brands fa-telegram absolute top-1 right-3"></i></span> 
+              <input type="text" placeholder="write a comment" class="input input-bordered  ml-1  rounded-full h-9 bg-slate-200 w-full" ><i class="fa-brands fa-telegram absolute top-2 right-3"></i>
                 
-              </div>
+             
           </div>
         </div>
       </div><br>
@@ -936,17 +959,18 @@
             
             <div class="relative">
               <img class="object-fill" src="images/bg.jpg" alt="">
-             <p class="absolute top-24 left-10 text-white font-bold text-2xl ">Stupidity is far more fascinating than intelligence,<br> after all, intelligence has its limits.</p>
+             <p class="absolute top-8 md:top-24 left-10 text-white font-bold text-2xl ">Stupidity is far more fascinating than intelligence,<br> after all, intelligence has its limits.</p>
             </div>
            
 
-            <div class="flex mt-6" style="column-gap:25rem ;">
+            <div class="flex mt-6 gap-12 md:gap-32" >
               <p class=""><i class="fa-solid fa-thumbs-up text-blue-500"></i><i class="fa-solid fa-face-laugh text-yellow-400"></i> <span class=""> 3</span></p>
+              <p></p>
               <p>3 comments</p>
             </div>
             <!-- like comment share  -->
             <div class=" rounded-xs bg-slate-200 px-4 py-3">
-              <div class="flex ml-16 text-sm">
+              <div class="flex ml-6 md:ml-16 text-sm">
                <p class=""><i class="fa-regular fa-thumbs-up"></i> Like</p>
                <p><i class="fa-regular fa-message"></i> Comment</p>
                <p><i class="fa-solid fa-share"></i></i> Share</p>
@@ -956,20 +980,20 @@
               <p class="text-slate-400">View more comments</p>
             </div>
           <!-- write comment -->
-          <div class="flex gap-x-5 mt-3">
+          <div class="flex gap-x-2 mt-3 items-center relative">
             <div class="avatar ">
               <div class="w-8 rounded-full">
                 <img src="https://placeimg.com/192/192/people" />
               </div>
                 
               </div>
-              <div>
+             
                 <i class="fa-solid fa-face-smile"></i>
                 <i class="fa-solid fa-paperclip"></i>
                 <i class="fa-solid fa-square-full"></i>
-               <span class="relative"><input type="text" placeholder="write a comment" class="input input-bordered  ml-1  rounded-full h-9 bg-slate-200" style="width:26rem ;"><i class="fa-brands fa-telegram absolute top-1 right-3"></i></span> 
+              <input type="text" placeholder="write a comment" class="input input-bordered  ml-1  rounded-full h-9 bg-slate-200 w-full" ><i class="fa-brands fa-telegram absolute top-2 right-3"></i>
                 
-              </div>
+             
           </div>
         </div>
       </div><br>
@@ -1005,13 +1029,14 @@
             </div>
            
 
-            <div class="flex mt-6" style="column-gap:25rem ;">
+            <div class="flex mt-6 gap-12 md:gap-32">
               <p class=""><i class="fa-solid fa-face-laugh text-yellow-400"></i><i class="fa-solid fa-thumbs-up text-blue-500"></i> <span class=""> 2</span></p>
+              <p></p>
               <p>1 comment</p>
             </div>
             <!-- like comment share  -->
             <div class=" rounded-xs bg-slate-200 px-4 py-3">
-              <div class="flex ml-16 text-sm">
+              <div class="flex ml-6 md:ml-16 text-sm">
                <p class=""><i class="fa-regular fa-thumbs-up"></i> Like</p>
                <p><i class="fa-regular fa-message"></i> Comment</p>
                <p><i class="fa-solid fa-share"></i></i> Share</p>
@@ -1021,20 +1046,20 @@
               <p class="text-slate-400">View more comments</p>
             </div>
           <!-- write comment -->
-          <div class="flex gap-x-5 mt-3">
+          <div class="flex gap-x-2 mt-3 items-center relative">
             <div class="avatar ">
               <div class="w-8 rounded-full">
                 <img src="https://placeimg.com/192/192/people" />
               </div>
                 
               </div>
-              <div>
+             
                 <i class="fa-solid fa-face-smile"></i>
                 <i class="fa-solid fa-paperclip"></i>
                 <i class="fa-solid fa-square-full"></i>
-               <span class="relative"><input type="text" placeholder="write a comment" class="input input-bordered  ml-1  rounded-full h-9 bg-slate-200" style="width:26rem ;"><i class="fa-brands fa-telegram absolute top-1 right-3"></i></span> 
+              <input type="text" placeholder="write a comment" class="input input-bordered  ml-1  rounded-full h-9 bg-slate-200 w-full" ><i class="fa-brands fa-telegram absolute top-2 right-3"></i>
                 
-              </div>
+             
           </div>
         </div>
       </div><br>
@@ -1078,33 +1103,34 @@
             </div>
             
 
-            <div class="flex mt-6" style="column-gap:23rem ;">
+            <div class="flex mt-6 gap-12 md:gap-32" >
               <p class=""><i class="fa-brands fa-gratipay text-red-700"></i><i class="fa-solid fa-thumbs-up text-blue-500"></i><i class="fa-solid fa-face-surprise text-yellow-400"></i> 9</p>
               <p>1 comment</p>
+              <p>1 share</p>
             </div>
             <!-- like comment share  -->
             <div class=" rounded-xs bg-slate-200 px-4 py-3">
-              <div class="flex ml-16 text-sm">
+              <div class="flex ml-6 md:ml-16 text-sm">
                <p class=""><i class="fa-regular fa-thumbs-up"></i> Like</p>
                <p><i class="fa-regular fa-message"></i> Comment</p>
                <p><i class="fa-solid fa-share"></i></i> Share</p>
               </div>
             </div>
           <!-- write comment -->
-          <div class="flex gap-x-5 mt-3">
+          <div class="flex gap-x-2 mt-3 items-center relative">
             <div class="avatar ">
               <div class="w-8 rounded-full">
                 <img src="https://placeimg.com/192/192/people" />
               </div>
                 
               </div>
-              <div>
+              
                 <i class="fa-solid fa-face-smile"></i>
                 <i class="fa-solid fa-paperclip"></i>
                 <i class="fa-solid fa-square-full"></i>
-               <span class="relative"><input type="text" placeholder="write a comment" class="input input-bordered  ml-1  rounded-full h-9 bg-slate-200" style="width:26rem ;"><i class="fa-brands fa-telegram absolute top-1 right-3"></i></span> 
+             <input type="text" placeholder="write a comment" class="input input-bordered  ml-1  rounded-full h-9 bg-slate-200 w-full" ><i class="fa-brands fa-telegram absolute top-2 right-3"></i>
                 
-              </div>
+              
           </div>
         </div>
       </div><br>
